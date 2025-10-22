@@ -1,0 +1,20 @@
+train: .\images\train
+val: .\images\val
+test: .\test\test
+nc: 15
+names:
+- glasses
+- gloves
+- hat
+- mask
+- no-glasses
+- no-gloves
+- no-hat
+- no-mask
+- person
+- safety-ear
+- safety-shoes
+- safety-vest
+- shoes
+- unsafety-hat
+- vest
