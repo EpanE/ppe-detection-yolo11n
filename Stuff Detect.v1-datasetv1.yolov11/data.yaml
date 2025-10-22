@@ -1,0 +1,15 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: 
+  0: no-helmet
+  1: helmet
+
+roboflow:
+  workspace: capstone-yim
+  project: stuff-detect-3jq95
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/capstone-yim/stuff-detect-3jq95/dataset/1
